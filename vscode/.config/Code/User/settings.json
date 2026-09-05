@@ -2,5 +2,6 @@
     "chat.disableAIFeatures": true,
     "editor.fontLigatures": true,
     "editor.fontFamily": "'FiraCode Nerd Font', 'Droid Sans Mono', monospace",
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false
 }
