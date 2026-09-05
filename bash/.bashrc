@@ -23,3 +23,31 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# History
+HISTCONTROL=ignoreboth:erasedups
+HISTSIZE=10000
+HISTFILESIZE=20000
+shopt -s histappend
+
+# Better default navigation
+shopt -s autocd
+shopt -s cdspell
+
+# Useful aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# Git shortcuts
+alias gs='git status'
+alias gl='git log --oneline --decorate --graph --all'
+alias gd='git diff'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
+# Prefer readable output where supported
+alias grep='grep --color=auto'
