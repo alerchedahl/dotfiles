@@ -51,3 +51,13 @@ alias gp='git push'
 
 # Prefer readable output where supported
 alias grep='grep --color=auto'
+
+# fzf
+if command -v fzf >/dev/null 2>&1; then
+    eval "$(fzf --bash)"
+fi
+
+# Better cat when available
+if command -v bat >/dev/null 2>&1; then
+    alias cat='bat --paging=never'
+fi
