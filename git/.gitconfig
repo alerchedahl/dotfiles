@@ -1,0 +1,11 @@
+[init]
+    defaultBranch = main
+
+[fetch]
+    prune = true
+
+[core]
+    autocrlf = input
+
+[include]
+    path = ~/.gitconfig.local
