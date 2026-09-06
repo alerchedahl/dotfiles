@@ -1,0 +1,11 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+[character]
+success_symbol = "[●](bold fg:177)"
+error_symbol = "[☠](bold fg:204)"
+
+
+[directory]
+truncation_length = 4

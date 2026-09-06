@@ -64,3 +64,6 @@ fi
 
 # mise
 eval "$(~/.local/bin/mise activate bash)"
+
+# Starship prompt
+eval "$(starship init bash)"
